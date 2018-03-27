@@ -10,173 +10,74 @@
   <link rel="stylesheet" href="assets/persian-font/font-face.css">
   <!-- Gorbeh Icons -->
   <link href="assets/gorbeh/css/gorbeh-icons.css" rel="stylesheet">
-  <style>
-    .color1 {
-      color: rgba(25, 29, 50, 1);
-    }
-
-    .color2 {
-      color: rgba(76, 42, 133, 1);
-    }
-
-    .color3 {
-      color: rgba(238, 240, 242, 1);
-    }
-
-    .color4 {
-      color: rgba(195, 60, 84, 1);
-    }
-
-    .color5 {
-      color: rgba(179, 0, 137, 1);
-    }
-
-    #home {
-      background-color: rgba(25, 29, 50, 1);
-      height: 100vh;
-      display: inline-flex;
-      width: 100%;
-      text-align: center;
-    }
-
-    .headline {
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-
-      color: rgba(238, 240, 242, 1);
-
-    }
-
-    .footer {
-      background-color: rgba(195, 60, 84, 1);
-      padding: 0%;
-    }
-
-    .persian {
-      font-family: 'Vazir';
-    }
-
-    .horizontal-list {}
-
-    ul.horizontal-list li {
-      display: inline;
-    }
-
-    .horizontal-list-container {
-      margin: 0 auto;
-      display: table;
-    }
-
-    .navbar {
-
-      background-color: rgba(179, 0, 137, 1);
-
-    }
-
-    .navbar-item {
-      color: rgba(238, 240, 242, 1);
-    }
-  </style>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-  <nav class="navbar is-fixed-top">
+ <!--  <nav class="navbar">
 
-    <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-    <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-    <span class="navbar-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-
-    <!-- This "nav-menu" is hidden on mobile -->
-    <!-- Add the modifier "is-active" to display it on mobile -->
-    <div class="navbar-right navbar-menu">
-      <a class="navbar-item" href="#home">
-        Home
-      </a>
-      <a class="navbar-item" href="#credits">
-        Credits
-      </a>
-      <a class="navbar-item">
-        Blog
-      </a>
-
-    </div>
-  </nav>
-  <section id="home" class="section">
+  </nav> -->
+  <section id="home" class="hero is-fullheight is-dark is-bold">
+    <div class="wrapper is-fullheight">
     <div class="container">
-
-      <h1 class="title headline is-size-1">
+      <h1 class="headline is-size-1">
         Seyed Ashkan Taravati
 
       </h1>
-      <h1 class="title persian headline is-size-1">
+    
+      <h1 class="persian headline is-size-1">
         سید اشکان طراوتی
 
       </h1>
-      <div class="horizontal-list-container">
-        <ul class="horizontal-list">
-          <li>
-            <a href="https://github.com/ashkantaravati">
-              <i class="gb gb_github gb_s48"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://t.me/AshkanExplains">
-              <i class="gb gb_telegram gb_s48"></i>
-            </a>
-          </li>
-          <li>
-            <a href="http://aparat.com/ashkantaravati">
-              <i class="gb gb_aparat gb_s48"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/ashkantaravati">
-              <i class="gb gb_linkedin gb_s48"></i>
-            </a>
-          </li>
-          <li>
-            <a href="http://virgool.io/@ashkantaravati">
-              <i class="gb gb_virgool gb_s48"></i>
-            </a>
-          </li>
-          <li>
-            <a href="http://virgool.io/@ashkantaravati">
-              <i class="gb gb_virgool gb_s48"></i>
-            </a>
-          </li>
+    </div>
+    <div class="level">
 
-        </ul>
-      </div>
-      <div>
+      <a class="level-item" href="https://github.com/ashkantaravati">
+        <i class="gb gb_github gb_s48"></i>
+      </a>
+
+      <a class="level-item" href="https://t.me/AshkanExplains">
+        <i class="gb gb_telegram gb_s48"></i>
+      </a>
+
+      <a class="level-item" href="http://aparat.com/ashkantaravati">
+        <i class="gb gb_aparat gb_s48"></i>
+      </a>
+
+      <a class="level-item" href="https://linkedin.com/in/ashkantaravati">
+        <i class="gb gb_linkedin gb_s48"></i>
+      </a>
+
+      <a class="level-item" href="http://virgool.io/@ashkantaravati">
+        <i class="gb gb_virgool gb_s48 persian">ویرگول</i>
+      </a>
+
+
+
+    </div>
+    <!--  <div>
         <i class="gb gb_email gb_s48">ashkan[dot]taravati[at]gmail[dot]com</i>
-      </div>
+      </div> -->
     </div>
     </div>
   </section>
   <footer class="footer">
-    2018
+    <small>&copy; Copyright 2018, Seyed Ashkan Taravati</small>
 
-    <div id="credits" class="horizontal-list-container">
+    <div id="credits" class="level">
 
-      <ul class="horizontal-list">
-        <a href="https://github.com/ikacc/Gorbeh">
-          <img src='https://img.shields.io/badge/Powered%20By-Gorbeh-green.svg'>
-        </a>
-        <li>
-          <a href="https://bulma.io">
-            <img src="https://bulma.io/images/made-with-bulma--dark.png" alt="Made with Bulma" width="128" height="24">
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/rastikerdar/vazir-font">
-            <img src="https://img.shields.io/badge/prettier%20with-Vazir-blue.svg" </a>
-        </li>
-      </ul>
+
+      <a class="level-item" href="https://github.com/ikacc/Gorbeh">
+        <img src='https://img.shields.io/badge/Powered%20By-Gorbeh-green.svg'>
+      </a>
+
+      <a class="level-item" href="https://bulma.io">
+        <img src="https://bulma.io/images/made-with-bulma--dark.png" alt="Made with Bulma" width="128" height="24">
+      </a>
+
+      <a class="level-item" href="https://github.com/rastikerdar/vazir-font">
+        <img src="https://img.shields.io/badge/prettier%20with-Vazir-blue.svg"> </a>
+
     </div>
   </footer>
 </body>

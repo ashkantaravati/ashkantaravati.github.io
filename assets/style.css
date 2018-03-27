@@ -1,0 +1,43 @@
+#home {
+    /* height: 100vh; */
+    /* display: inline-flex; */
+    /* width: 100%; */
+    text-align: center;
+    /* background: url(images/computer-hardware-background-images.jpg) no-repeat fixed center; */
+    background: url(images/home-background.png) no-repeat fixed center;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.headline {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(238, 240, 242, 1);
+}
+
+.footer {
+    background-color: #6D1524;
+    padding: 0%;
+    text-align: center;
+    color:#B8C9A3;
+}
+
+.persian {
+    font-family: 'Vazir';
+}
+
+.navbar {
+    background-color: rgba(179, 0, 137, 1);
+}
+
+.navbar-item {
+    color: rgba(238, 240, 242, 1);
+}
+.wrapper{
+    background-color:rgba(0,0,0,0.5)
+}
