@@ -1,3 +1,6 @@
+span#typed-cursor{
+    display: none;
+}
 #home {
     /* height: 100vh; */
     /* display: inline-flex; */
@@ -44,4 +47,14 @@ padding-top: 3.25rem;
 #bio{
     padding: 5%;
     font-family: cursive;
+}
+
+#socials{
+    position: absolute;
+    bottom:0px;
+    width:100%;
+}
+
+.sat-hover :hover{
+color:#85144B;
 }

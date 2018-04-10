@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Seyed Ashkan Taravati's personal website.">
+  <meta name="description" content="Ashkan Taravati's personal website.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Seyed Ashkan Taravati|سید اشکان طراوتی</title>
+  <title>Ashkan Taravati|اشکان طراوتی</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
   <meta name="theme-color" content="#000000" />
+  <script src="assets/typed.js"></script>
 </head>
 
 <body>
@@ -43,7 +44,7 @@
     </div>
   
     <div class="navbar-end">
-      <a class="navbar-item" href="https://ashkantaravati.atbox.io">
+      <a class="navbar-item white" href="https://ashkantaravati.atbox.io">
         My Persian CV
       </a>
     </div>
@@ -51,26 +52,31 @@
   </nav>
   <section id="home" class="hero is-fullheight is-dark is-bold sat-nav-ok">
     <div class="sat-wrapper is-fullheight is-vcentered">
+      <div id="to-type"></div>
+      <!-- <div id="typed-strings" > -->
+        
     <div class="container">
-      <h1 class="headline is-size-1">
-        Seyed Ashkan Taravati
+      
+      <h1 id="myName"class="headline is-size-1">
+        
 
       </h1>
     
-      <!-- <h1 class="persian headline is-size-1">
-        سید اشکان طراوتی
-
-      </h1> -->
-      <h2 class="subtitle">Computer Geek;</h2>
+      <h2 id="myHeadLine" class="subtitle"></h2>
     </div>
+    <strong id="myGreetings" class="is-size-1">
+
+      </strong>
     <div class="container">
 
     </div>
-    <div id="socials" class="is-clearfix">
+    <div id="socials">
     <strong>Connect with Me</strong>
-    <div class="level">
+  
+    
+    <div class="level is-clearfix sat-hover">
 
-      <a class="level-item" href="https://github.com/ashkantaravati">
+      <a class="level-item " href="https://github.com/ashkantaravati">
         <i class="gb gb_github gb_s48"></i>
       </a>
 
@@ -95,6 +101,39 @@
 
     </div>
   </div>
+    <script>
+        $("#myName").typed({
+    strings: ["Hello.", "I'm Ashkan Taravati"],
+    typeSpeed: 30,
+    startDelay:0,
+    showCursor:false,
+    callback: function () {
+                  $(".typed-cursor").hide();
+              }
+  });
+    // var typed = new Typed('#to-type', {
+    //   stringsElement: '#typed-strings'
+    // });
+  
+        //$("#to-type").typed({stringsElement:'#typed-strings'});
+  
+  $("#myHeadLine").typed({
+    strings: ["I'm a blogger", "and...","a Computer Geek!"],
+    typeSpeed: 30,
+    startDelay:2500,
+    showCursor:false,
+    callback: function () {
+                  $(".typed-cursor").hide();
+              }
+  });
+  
+  $("#myGreetings").typed({
+    strings: ["Welcome to my website!"],
+    typeSpeed: 30,
+    startDelay:7000,
+  });
+      </script>
+  <!-- </div> -->
     </div>
     </div>
   </section>
@@ -109,7 +148,7 @@
     </article>
   </section> 
   <footer class="footer bg-maroon">
-    <small>&copy; Copyright 2018, Seyed Ashkan Taravati</small>
+    <small>&copy; Copyright 2018, Ashkan Taravati</small>
 
     <div id="credits" class="level">
 
@@ -121,9 +160,9 @@
       <a class="level-item" href="https://bulma.io">
         <img src="https://bulma.io/images/made-with-bulma--dark.png" alt="Made with Bulma" width="128" height="24">
       </a>
-
+<!-- 
       <a class="level-item" href="https://github.com/rastikerdar/vazir-font">
-        <img src="https://img.shields.io/badge/prettier%20with-Vazir-blue.svg"> </a>
+        <img src="https://img.shields.io/badge/prettier%20with-Vazir-blue.svg"> </a> -->
 
     </div>
   </footer>
