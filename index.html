@@ -1,36 +1,73 @@
 <!DOCTYPE html>
+<!-- <html class="has-navbar-fixed-top"> -->
 <html>
-
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Seyed Ashkan Taravati's personal website.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Seyed Ashkan Taravati|سید اشکان طراوتی</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/index.js"></script>
   <link rel="stylesheet" href="assets/persian-font/font-face.css">
   <!-- Gorbeh Icons -->
   <link href="assets/gorbeh/css/gorbeh-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
-  <meta name="theme-color" content="#6D1524" />
+  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+  <meta name="theme-color" content="#000000" />
 </head>
 
 <body>
- <!--  <nav class="navbar">
-
-  </nav> -->
-  <section id="home" class="hero is-fullheight is-dark is-bold">
-    <div class="wrapper is-fullheight is-vcentered">
+  <nav class="navbar is-fixed-top bg-maroon white" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <div id="main-nav-burger" class="navbar-burger">
+        <span id="navbar-toggle" class="white">
+    <span></span>
+    <span></span>
+    <span></span>
+        </span>
+   
+  </div>
+  
+    </div>
+  <div id="main-nav-menu" class="navbar-menu white">
+     <div class="navbar-start">
+        <a class="navbar-item white" href="#home" title="goto home section">
+            /home
+          </a>
+      <a class="navbar-item white" href="#whoami" title="a brief introduction about me">
+          whoami
+  </a>
+    </div>
+  
+    <div class="navbar-end">
+      <a class="navbar-item" href="https://ashkantaravati.atbox.io">
+        My Persian CV
+      </a>
+    </div>
+    </div>
+  </nav>
+  <section id="home" class="hero is-fullheight is-dark is-bold sat-nav-ok">
+    <div class="sat-wrapper is-fullheight is-vcentered">
     <div class="container">
       <h1 class="headline is-size-1">
         Seyed Ashkan Taravati
 
       </h1>
     
-      <h1 class="persian headline is-size-1">
+      <!-- <h1 class="persian headline is-size-1">
         سید اشکان طراوتی
 
-      </h1>
+      </h1> -->
+      <h2 class="subtitle">Computer Geek;</h2>
     </div>
+    <div class="container">
+
+    </div>
+    <div id="socials" class="is-clearfix">
+    <strong>Connect with Me</strong>
     <div class="level">
 
       <a class="level-item" href="https://github.com/ashkantaravati">
@@ -52,20 +89,26 @@
       <a class="level-item" href="http://virgool.io/@ashkantaravati">
         <i class="gb gb_virgool gb_s48 persian">virgool.io</i>
       </a>
-      <a class="level-item" href="https://ashkantaravati.atbox.io">
-        <i class="gb gb_atbox gb_s48 persian">رزومه</i>
-      </a>
+      
 
 
 
     </div>
-    <!--  <div>
-        <i class="gb gb_email gb_s48">ashkan[dot]taravati[at]gmail[dot]com</i>
-      </div> -->
+  </div>
     </div>
     </div>
   </section>
-  <footer class="footer">
+  <section id="whoami" class="hero is-fullheight is-dark is-bold sat-nav-ok">
+    <article id="bio" class="is-vcentered is-size-6 has-text-justified has-text-weight-semibold">
+    <p>I'm a fast-learner computer geek, a full-time Ubuntu user and retired Windows fan, who knows a little about everything from programming to software system analysis to project management.<br/> 
+      I'd rather work in a team as I'm a people-oriented person.<br/> 
+      I love instructing people as much as I am able to and would try my best to improve my ream and my workplace.<br/> 
+      I am a perfectionist but no idealist - Time is short, we have to be agile!<br/> 
+      I read about management, bleeding-edge technologies, and psychology in my free time.
+      </p>
+    </article>
+  </section> 
+  <footer class="footer bg-maroon">
     <small>&copy; Copyright 2018, Seyed Ashkan Taravati</small>
 
     <div id="credits" class="level">

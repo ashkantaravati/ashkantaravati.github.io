@@ -11,8 +11,6 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
-
 .headline {
     width: 100%;
     margin-left: auto;
@@ -21,7 +19,6 @@
 }
 
 .footer {
-    background-color: #6D1524;
     padding: 0%;
     text-align: center;
     color:#B8C9A3;
@@ -31,13 +28,20 @@
     font-family: 'Vazir';
 }
 
-.navbar {
-    background-color: rgba(179, 0, 137, 1);
+
+.sat-wrapper{
+    background-color:rgba(0,0,0,0.9);
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
+    
+}
+.sat-nav-ok{
+padding-top: 3.25rem;
+
 }
 
-.navbar-item {
-    color: rgba(238, 240, 242, 1);
-}
-.wrapper{
-    background-color:rgba(0,0,0,0.5)
+#bio{
+    padding: 5%;
+    font-family: cursive;
 }
