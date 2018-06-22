@@ -7,7 +7,8 @@ span#typed-cursor{
     /* width: 100%; */
     text-align: center;
     /* background: url(images/computer-hardware-background-images.jpg) no-repeat fixed center; */
-    background: url(images/home-background.png) no-repeat fixed center;
+    /* background: url(images/home-background.png) no-repeat fixed center; */
+    background: url(images/scrum-board.jpg) no-repeat fixed center;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,7 +47,7 @@ padding-top: 3.25rem;
 
 #bio{
     padding: 5%;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #socials{
