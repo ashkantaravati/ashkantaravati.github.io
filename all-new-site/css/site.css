@@ -1,0 +1,24 @@
+.bg-theme {
+  background: #85144B; }
+
+.bg-img {
+  /* The image used */
+  background: linear-gradient(black, rgba(0, 0, 0, 0.75)), url("/img/scrum-board.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.font-theme {
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.section-full {
+  height: 100vh;
+  min-height: 100vh; }
+
+.icon-big {
+  font-size: 10vw; }
+
+/*# sourceMappingURL=site.css.map */
