@@ -1,5 +1,14 @@
+#typed-cursor {
+  display: none; }
+
 .bg-theme {
   background: #85144B; }
+
+.terminal {
+  text-align: left;
+  color: #85144B;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-color: #85144B; }
 
 .bg-img {
   /* The image used */

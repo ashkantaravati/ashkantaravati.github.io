@@ -1,11 +1,20 @@
 $theme-color: #85144B;
 $site-image: url("/img/scrum-board.jpg");
 
-
+#typed-cursor{
+    display: none;
+}
 
 .bg-theme{
     background: $theme-color;
 } 
+
+.terminal {
+    text-align: left;
+    color: $theme-color;
+    background-color: rgba(0,0,0,0.75);
+    border-color: $theme-color;
+}
 
 .bg-img {
     /* The image used */
