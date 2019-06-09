@@ -1,267 +1,173 @@
-<!DOCTYPE html>
-<!-- <html class="has-navbar-fixed-top"> -->
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Ashkan Taravati's personal website and portfolio.
-  Know more about me or contact me.
-  وبسایت سید اشکان طراوتی
-  مهندس کامپیوتر
-  برنامه‌نویس
-  سخنران تجربی
-  معلم برنامه‌نویسی">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="assets/favicon.ico" type="image/gif" sizes="16x16">
-  <title>Ashkan Taravati|اشکان طراوتی</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122403207-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  gtag('config', 'UA-122403207-1');
-</script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="assets/index.js"></script>
-  <link rel="stylesheet" href="assets/persian-font/font-face.css">
-  <!-- Gorbeh Icons -->
-  <link href="assets/gorbeh/css/gorbeh-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
-  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
-  <meta name="theme-color" content="#000000" />
-  <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v18.0.1/dist/font-face.css" rel="stylesheet" type="text/css" />
-
-  <script src="assets/typed.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Ashkan Taravati's Website</title>
 </head>
 
-<body>
-  <nav class="navbar is-fixed-top bg-maroon white" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <div id="main-nav-burger" class="navbar-burger">
-        <span id="navbar-toggle" class="white">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
+<body class="font-theme">
 
-      </div>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-theme text-white">
+    <button class="navbar-toggler btn-outline-light" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    </div>
-    <div id="main-nav-menu" class="navbar-menu bg-maroon white">
-      <div class="navbar-start">
-        <a class="navbar-item white" href="#home" title="goto home section"><em>~</em></a>
-        <a class="navbar-item white" href="#whoami" title="a brief autobiography">$(whoami)</a>
-        <a class="navbar-item white" href="#spec" title="a brief autobiography">Skills</a>
-        <a class="navbar-item white" href="#affil" title="a brief autobiography">Affiliations</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#my-home">Home</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link text-light" href="#my-abilities">Abilities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#my-skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#my-xp">Experiences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#my-affiliations">Affiliations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#my-contact">Contact</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link text-light" href="files/Ashkan-Taravati-CV.pdf">Get My CV!</a>
+        </li>
+      </ul>
 
-      </div>
-
-      <div class="navbar-end">
-        <a class="navbar-item white" href="#contact" title="a brief autobiography">Contact Me!</a>
-        <a class="navbar-item white" href="https://ashkantaravati.atbox.io">
-          My Persian Resumé
-        </a>
-      </div>
     </div>
   </nav>
-  <section id="home" class="hero is-fullheight is-dark is-bold sat-nav-ok">
-    <div class="sat-wrapper is-fullheight is-vcentered">
-      <div id="to-type"></div>
-      <!-- <div id="typed-strings" > -->
 
-      <div class="container">
-        <div>
-          &nbsp;
-        </div>
-        <h1 id="myName" class="headline is-size-1 is-size-3-mobile">
+  <div id="my-home" class="jumbotron-fluid text-center text-white bg-dark bg-img section-full">
+    <div class="container pt-5">
+      <div class="row mb-3">
+        <div class="col">
 
-
-        </h1>
-
-        <h2 id="myHeadLine" class="subtitle"></h2>
-      </div>
-      <strong id="myGreetings" class="is-size-1 is-size-2-mobile">
-
-      </strong>
-      <div class="container">
-
-      </div>
-      <div id="socials">
-        <strong>Connect with Me</strong>
-
-
-        <div class="level is-clearfix sat-hover is-size-3-mobile">
-
-          <a class="level-item " href="https://github.com/ashkantaravati">
-            <i class="gb gb_github gb_s48"></i>
-          </a>
-
-          <!-- <a class="level-item" href="https://t.me/AshkanExplains">
-        <i class="gb gb_telegram gb_s48"></i>
-      </a>
-    -->
-          <a class="level-item" href="http://aparat.com/ashkantaravati">
-            <i class="gb gb_aparat gb_s48"></i>
-          </a>
-
-          <a class="level-item" href="https://linkedin.com/in/ashkantaravati">
-            <i class="gb gb_linkedin gb_s48"></i>
-          </a>
-
-          <a class="level-item" href="http://virgool.io/@ashkantaravati">
-            <i class="gb gb_virgool gb_s48 persian">virgool.io</i>
-          </a>
-
-
-
+          <h1 class=" display-4" id="myName"></h1>
+          <p class=" lead" id="myHeadLine"></p>
 
         </div>
       </div>
-      <script>
-        $("#myName").typed({
-          strings: ["Hello.", "I'm Ashkan Taravati"],
-          typeSpeed: 30,
-          startDelay: 0,
-          showCursor: false,
-          callback: function () {
-            $(".typed-cursor").hide();
-          }
-        });
-        // var typed = new Typed('#to-type', {
-        //   stringsElement: '#typed-strings'
-        // });
 
-        //$("#to-type").typed({stringsElement:'#typed-strings'});
+      <div class="row mb-3">
+        <div class="col">
 
-        $("#myHeadLine").typed({
-          strings: ["I'm a blogger", "and...", "a Computer Geek!"],
-          typeSpeed: 30,
-          startDelay: 2500,
-          showCursor: false,
-          callback: function () {
-            $(".typed-cursor").hide();
-          }
-        });
 
-        $("#myGreetings").typed({
-          strings: ["Welcome to my website!"],
-          typeSpeed: 30,
-          startDelay: 7000,
-        });
-      </script>
-      <!-- </div> -->
-    </div>
-    </div>
-  </section>
-  <section id="whoami" class="hero is-dark is-bold sat-nav-ok">
-    <div class="container">
 
-      <h2 class="title is-size-3">About Me</h2>
-      <article id="bio" class="is-vcentered is-size-6 has-text-justified">
-        <p>I'm a fast-learner computer geek, a full-time Ubuntu user and retired Windows fan.
-          <br/> I know
-          <em>a little</em> about
-          <em>everything</em>; let it be programming, teaching or management.
-          <br/> I'd rather work in a team as I'm a people-oriented person.
-          <br/> I love instructing people as much as I am able to and would try my best to improve my team and my workplace.
-          <br/> I am a perfectionist but no idealist - I'm a Disciplined Agilist!
-          <br/> I read about management, bleeding-edge technologies, and psychology in my free time.
-        </p>
-      </article>
-    </div>
-  </section>
-  <section id="spec" class="hero is-dark is-bold sat-nav-ok">
-    <div class="container">
+          <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal"
+            data-target="#followModal">Follow Me!</button>
 
-      <h2 class="title is-size-3">Things I Specialize In</h2>
-      <ul>
-        <li>Teaching;</li>
-        <li>Programming;</li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-  </section>
-  <section id="affil" class="hero is-dark is-bold sat-nav-ok">
-    <div class="container">
-
-      <h2 class="title is-size-3">Things I Am Involved In</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-
-  </section>
-  <section id="contact" class="hero is-dark is-bold sat-nav-ok">
-    <div class="container">
-      <h2 class="title is-size-3">Need My Assistance? Contact Me.</h2>
-      <div class="columns">
-        <div class="column hero is-half">
-          I'll do my best to respond as soon as I can!
+          <a class="btn btn-outline-light btn-lg" href="files/Ashkan-Taravati-CV.pdf">
+            Get My CV!
+          </a>
+          <a class="btn btn-outline-light btn-lg" href="https://virgool.io/@ashkantaravati">
+            Read My Blog!
+          </a>
         </div>
-        <div class="column hero bg-maroon is-half">
-          <form action="https://formspree.io/info@ashkantaravati.ir" method="POST">
-            <div class="field">
-              <label class="label has-text-white">Your Name</label>
-              <div class="control">
-                <input class="input" type="text" name="name">
-              </div>
-            </div>
 
-            <div class="field">
-              <label class="label has-text-white">Your Email</label>
-              <div class="control has-icons-left has-icons-right">
-                <input class="input" type="email" name="_replyto">
-              </div>
-            </div>
-            <div class="field">
-              <label class="label has-text-white">Your Message</label>
-              <div class="control">
-                <textarea class="textarea" name="message"></textarea>
-              </div>
-            </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <div class="alert terminal" role="alert">
+            <p class="lead" id="whoami">
 
+            </p>
 
-
-            <div class="control">
-              <button class="button is-dark">Submit</button>
-            </div>
-
-          </form>
+          </div>
         </div>
       </div>
-      <div>
-        &nbsp;
-      </div>
     </div>
+  </div>
 
-  </section>
-
-  <footer class="footer sat-nav-ok bg-maroon">
-    
-    <div id="credits" class="level">
-      <a class="level-item" href="https://github.com/ikacc/Gorbeh">
-        <img src='https://img.shields.io/badge/Powered%20By-Gorbeh-green.svg'>
-      </a>
-      <a href="https://twitter.com/geekmard?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @geekmard</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <a class="level-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/made-with-bulma--dark.png" alt="Made with Bulma" width="128" height="24">
-      </a>
-    </div>
-    <small>Designed By Ashkan Taravati - 2018</small>
+  <footer class="text-center bg-theme text-light">
+    Ashkan Taravati
   </footer>
+
+  <div class="modal fade" id="followModal" tabindex="-1" role="dialog" aria-labelledby="followModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content text-light bg-theme">
+        <div class="modal-header">
+          <h5 class="modal-title" id="followModalLabel">Follow Me!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row icon-big">
+              <div class="col"><a href="https://linkedin.com/ashkantaravati"><i
+                    class="text-light fab fa-linkedin fa-lg"></i></a></div>
+              <div class="col"><a href="https://github.com/ashkantaravati"><i
+                    class="text-light fab fa-github fa-lg"></i></a></div>
+              <div class="col"><a href="https://t.me/ashkantaravati"><i
+                    class="text-light fab fa-telegram fa-lg"></i></a></div>
+              <div class="col"><a href="https://t.me/ashkantaravati"><i class="text-light fas fa-blog fa-lg"></i></a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <script src="js/typed.js"></script>
+  <script>
+    $("#myName").typed({
+      strings: ["Hello Visitor!"],
+      typeSpeed: 30,
+      startDelay: 0,
+      showCursor: false,
+      callback: function () {
+        $(".typed-cursor").hide();
+      }
+    });
+
+
+    $("#whoami").typed({
+      strings: [
+        "I'm Ashkan Taravati, a Blogger and a Computer Geek, at your service!",
+      ],
+      typeSpeed: 20,
+      startDelay: 2000,
+      backSpeed: 0,
+      loop: true,
+      backDelay: 700,
+      showCursor: true,
+  cursorChar: '|',
+    });
+  </script>
+
+  
 </body>
 
 </html>

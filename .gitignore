@@ -62,3 +62,4 @@ typings/
 ashkantaravati.ir.code-workspace
 ashkantaravati.ir.code-workspace
 .gitignore
+.sass-cache
