@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ ashkantaravati.github.io ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
