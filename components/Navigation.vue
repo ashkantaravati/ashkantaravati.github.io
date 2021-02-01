@@ -13,7 +13,7 @@
                         <a class="nav-link" href="/gallery">Gallery <span class="sr-only">(current)</span></a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.ivangreve.com.ar">Blog</a>
+                        <a class="nav-link" href="https://www.virgool.io/@ashkantaravati">Blog</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>

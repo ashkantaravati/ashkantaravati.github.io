@@ -112,7 +112,7 @@ export default {
   },
   head() {
     return {
-      title: "Iván Greve"
+      title: "Ashkan Taravati | اشکان طراوتی"
     };
   },
   methods: {
