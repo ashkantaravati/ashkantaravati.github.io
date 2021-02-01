@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+    branches: [ ashkantaravati.github.io ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: npm install
+        uses: Jaid/action-npm-install@v1.2.4
+      - name: Nuxt to Github Pages
+        uses: ashkantaravati/NuxtToGithubPages@v1.0
+        with:
+          username: ashkantaravati
+          reponame: ashkantaravati.github.io
+          token: ${{ secrets.GITHUB_TOKEN }}
+          gitemail: ashkan.taravati@gmail.com
+          gitname: ashkantaravati
+          gitmsg: publish
+          cname: ashkantaravati.ir
